@@ -144,7 +144,6 @@ section .about-self::after {
 /*본문 너비 절반 지정 & 왼쪽 배치*/
 section .about-self .left {
   width: 50%;
-  /* height: 95vh; */
   float: left;
   background-color: #fff;
 }
@@ -158,12 +157,11 @@ section .about-self .left h2 {
 /*본문 왼쪽 이미지 크기와 위치 지정 */
 section .about-self .left img {
   max-width: 50%;
-  margin: 2rem 0 10.15rem 9rem;
+  margin: 8rem 0 11.35rem 9rem;
 }
 /*본문 너비 절반 지정 & 오른쪽 배치*/
 section .about-self .right {
   width: 50%;
-  /* height: 95vh; */
   float: left;
   background-color: #fff;
   padding: 0 4rem 0 0;
@@ -180,7 +178,7 @@ section .about-self .right p {
   line-height: 2;
   font-family: 'nanumsquare', sans-serif;
   font-weight: 400;
-  letter-spacing: 1%;
+  letter-spacing: 0.1rem;
   white-space: pre-line;
   margin: 0 0 4rem 0;
 }
@@ -203,7 +201,6 @@ section .title {
 section .do-me .do-inner {
   background-color: #fff;
   width: 30%;
-  /* height: 35vh; */
   padding: 2rem;
   float: left;
   margin-right: 5%;
@@ -624,7 +621,7 @@ div.work img {
     line-height: 2;
     font-family: 'nanumsquare', sans-serif;
     font-weight: 400;
-    letter-spacing: -0.8px;
+    letter-spacing: 0.2px;
     white-space: pre-line;
   }
   section .do-me .do-inner {
