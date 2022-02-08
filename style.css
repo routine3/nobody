@@ -118,7 +118,7 @@ main p.gogh {
   color: #1b54ab;
   font-weight: 600;
   text-align: right;
-  margin-top: 0.4rem;
+  margin: 0.4rem 0 4rem 0;
 }
 main h4 span::after {
   content: '';
@@ -133,6 +133,10 @@ main h4.active span::after {
 section {
   background: #dee7df;
   padding: 5rem 0;
+}
+section.about {
+  background: #ffff;
+  padding: 0rem 0;
 }
 /* float 속성 해제 */
 section .about-self::after {
@@ -164,7 +168,7 @@ section .about-self .right {
   width: 50%;
   float: left;
   background-color: #fff;
-  padding: 0 4rem 0 0;
+  padding: 0 2.5rem 0 0;
 }
 /*본문 왼쪽 h3 태그의 글자 크기와 여백 지정 */
 section .about-self .right h3 {
@@ -178,7 +182,7 @@ section .about-self .right p {
   line-height: 2;
   font-family: 'nanumsquare', sans-serif;
   font-weight: 400;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   white-space: pre-line;
   margin: 0 0 4rem 0;
 }
@@ -433,6 +437,10 @@ div.work img {
   /* 섹션 영역 contain 기준 너비 변경 - 2단으로 처리하기 위한 적정 너비 */
   section .container {
     width: 600px; /*1140px -> 600px*/
+  }
+  section.about {
+    background: #dee7df;
+    padding: 0rem 0;
   }
   /*About 영역 왼쪽 너비 50% -> 100% 변경*/
   section .about-self .left {
