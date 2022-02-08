@@ -168,7 +168,7 @@ section .about-self .right {
   width: 50%;
   float: left;
   background-color: #fff;
-  padding: 0 1.5rem 0 0;
+  padding: 0 2.5rem 0 0;
 }
 /*본문 왼쪽 h3 태그의 글자 크기와 여백 지정 */
 section .about-self .right h3 {
@@ -182,7 +182,7 @@ section .about-self .right p {
   line-height: 2;
   font-family: 'nanumsquare', sans-serif;
   font-weight: 400;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   white-space: pre-line;
   margin: 0 0 4rem 0;
 }
