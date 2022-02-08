@@ -180,7 +180,7 @@ section .about-self .right p {
   line-height: 2;
   font-family: 'nanumsquare', sans-serif;
   font-weight: 400;
-  letter-spacing: 3rem;
+  letter-spacing: 2rem;
   white-space: pre-line;
   margin: 0 0 4rem 0;
 }
