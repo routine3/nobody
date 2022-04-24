@@ -421,7 +421,14 @@ div.work img {
   width: 100%;
   display: block;
 }
-
+div.work4 {
+  width: 900px;
+  margin: 0 auto;
+}
+div.work4 img {
+  width: 100%;
+  display: block;
+}
 /* 화면 너비가 1140px 이하일 때 */
 @media screen and (max-width: 1140px) {
   /* 메인 영역 container 기준 너비 변경 */
